@@ -29,3 +29,9 @@ is the port number on the RabbitMQ server.
 I ran the publisher 5 times in quick succession and got a queue of 15. The queue
 is there because the messages are processed more slower so unprocessed messages
 have to wait in a queue.
+
+##### Simulating Many Subscribers
+![RabbitMQ Subscriber Many](images/manysubscriber.jpg)
+I ran the publisher 6 times in quick succession and got a queue of 10, which
+is less than before because the messages are distributed between the three
+subscribers. Hence, there are less messages in the queue.
