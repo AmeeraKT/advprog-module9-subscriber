@@ -1,6 +1,6 @@
-# Advanced Programming Module 8
+# Advanced Programming Module 9
 
-## Module 08 - High Level Networking
+## Module 09 - Software Architecture
 
 ### Reflection
 
